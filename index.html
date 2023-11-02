@@ -682,9 +682,9 @@
             sel_type.id = "sel_type";
             var type_options_str = "<option value='' unselected></option>";
             sel_type.onchange = function(){filterFunc()};
-            type_options_str  += '<option value="community">Community</option>';
-            type_options_str  += '<option value="Jail">jail</option>';
-            type_options_str  += '<option value="Parole/probation">parole/probation</option>';
+            type_options_str  += '<option value="community">community</option>';
+            type_options_str  += '<option value="jail">jail</option>';
+            type_options_str  += '<option value="parole/probation">parole/probation</option>';
             sel_type.innerHTML = type_options_str;
             div_type.appendChild(sel_type);
             var lab_type = document.createElement('div');
